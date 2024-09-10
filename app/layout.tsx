@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Roboto} from "next/font/google";
 import "./globals.css";
+import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 
 const font =  Roboto({
     subsets: ["latin"],
@@ -21,7 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={font.className}>
-          {children}
+          <ResponsiveNav/>
+            {children}
       </body>
     </html>
   );
