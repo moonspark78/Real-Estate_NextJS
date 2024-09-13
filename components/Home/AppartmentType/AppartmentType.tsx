@@ -2,7 +2,9 @@ import React from 'react'
 
 const AppartmentType = () => {
   return (
-    <div>AppartmentType</div>
+    <div className='pt-16 pb-16'>
+        <div className='w-[80%] mx-auto'></div>
+    </div>
   )
 }
 
