@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import { MdElectricBolt } from 'react-icons/md';
 import { FaBath, FaBed, FaSquare } from 'react-icons/fa';
+import { BiLinkExternal } from 'react-icons/bi';
+import { BsHeart, BsPlusSquare } from 'react-icons/bs';
 
 
 type Props ={
@@ -62,6 +64,14 @@ const PropertyCard = ({property} : Props) => {
             </div>
         </div>
         <div className='w-full h-[1.2px] mt-4 mb-4 bg-gray-500 opacity-15'></div>
+        <div className='flex items-center justify-between w-[90%] mx-auto pb-2'>
+            <h1 className='text-xs text-gray-600'>For Rent</h1>
+            <div className='flex items-center space-x-4 text-gray-500'>
+                <BiLinkExternal/>
+                <BsPlusSquare/>
+                <BsHeart/>
+            </div>
+        </div>
     </div>
   )
 }
