@@ -8,7 +8,7 @@ const BuildingFeature = () => {
     <div className='pb-16 pt-16 bg-gray-100'>
         <div className='w-[80%] mx-auto'>
             <SectionHeading heading='Explor Building Feature'/>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center mt-14'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center mt-14'>
                 {
                     buildings.map((building) => {
                         return (
