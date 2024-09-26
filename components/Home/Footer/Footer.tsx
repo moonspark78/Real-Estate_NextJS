@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaHouse } from 'react-icons/fa6'
+import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebookF, FaHouse } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
@@ -19,7 +20,22 @@ const Footer = () => {
                     Facilis, cupiditate!</p>
                 <p className='text-gray-300 font-semibold mt-4'>test.test@test.fr</p>
                 <p className='text-gray-300 font-semibold mt-2'>+33 0 00 00 00 00</p>
-                
+                {/* Socials links */}
+                <div className='flex items-center space-x-4 mt-6 cursor-pointer'>
+                    <FaFacebookF className='w-6 h-6 text-blue-600'/>
+                    <FaTwitter className='w-6 h-6 text-sky-500'/>
+                    <FaYoutube className='w-6 h-6 text-red-600'/>
+                    <FaInstagram className='w-6 h-6 text-pink-600'/>
+                </div>
+            </div>
+
+            {/* 2nd  */}
+            <div className='md:mx-auto'>
+                <h1 className='footer__heading'>Popular Search</h1>
+                <p className='footer__link'>Apartement for Rent</p>
+                <p className='footer__link'>Apartement Low to High</p>
+                <p className='footer__link'>Office for Buy</p>
+                <p className='footer__link'>Office for Rent</p>
             </div>
         </div>
     </div>
