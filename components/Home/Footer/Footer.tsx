@@ -37,6 +37,26 @@ const Footer = () => {
                 <p className='footer__link'>Office for Buy</p>
                 <p className='footer__link'>Office for Rent</p>
             </div>
+            {/* 3nd  */}
+            <div className='md:mx-auto'>
+                <h1 className='footer__heading'>Quick Link</h1>
+                <p className='footer__link'>Terms of Use</p>
+                <p className='footer__link'>Privacy Policy</p>
+                <p className='footer__link'>Pricing Plans</p>
+                <p className='footer__link'>Our Services</p>
+                <p className='footer__link'>Contact Support</p>
+                <p className='footer__link'>Carees</p>
+                <p className='footer__link'>FAQs</p>
+            </div>
+            {/* 4nd  */}
+            <div className='md:mx-auto'>
+                <h1 className='footer__heading'>Discover</h1>
+                <p className='footer__link'>Los Angeles</p>
+                <p className='footer__link'>Marseille</p>
+                <p className='footer__link'>Miami</p>
+                <p className='footer__link'>London</p>
+                <p className='footer__link'>Paris</p>
+            </div>
         </div>
     </div>
   )

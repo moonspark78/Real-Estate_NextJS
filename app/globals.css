@@ -9,7 +9,7 @@
 
 
     .footer__heading{
-        @apply text-lg text-white font-bold mb-4
+        @apply text-lg text-white font-bold mb-4 text-center
     }
 
     .footer__link{
